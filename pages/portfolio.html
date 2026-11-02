@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore the creative portfolio of Dancraft Studioz, featuring branding, graphic design, printing, and digital creative projects.">
+
+    <meta name="author" content="Dancraft Studioz">
+
+    <title>Our Portfolio | Dancraft Studioz</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+    <header class="site-header">
+        <div class="container header-container">
+
+            <a href="../index.html" class="logo">
+                Dancraft<span>Studioz</span>
+            </a>
+
+            <nav class="main-navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="contact.html" class="header-cta">
+                Let's Talk
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mobile-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <nav id="mobile-navigation" class="mobile-navigation"
+             aria-label="Mobile navigation" hidden>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             PORTFOLIO HERO
+        ========================== -->
+        <section class="portfolio-hero section-padding">
+            <div class="container">
+
+                <p class="eyebrow">OUR CREATIVE COLLECTION</p>
+
+                <h1>
+                    Ideas transformed into
+                    <span>visual experiences.</span>
+                </h1>
+
+                <p class="portfolio-intro">
+                    Explore a selection of our creative projects,
+                    from brand identities and graphic design to
+                    print materials and digital experiences.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             PORTFOLIO GALLERY
+        ========================== -->
+        <section class="portfolio-gallery section-padding">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">SELECTED PROJECTS</p>
+                        <h2>Our Creative Work</h2>
+                    </div>
+
+                    <p class="project-count">
+                        A collection of creative work
+                    </p>
+                </div>
+
+
+                <!-- PROJECT CATEGORY FILTERS -->
+                <div class="portfolio-filters" aria-label="Filter projects">
+
+                    <button class="filter-btn active"
+                            type="button"
+                            data-filter="all"
+                            aria-pressed="true">
+                        All Projects
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="branding"
+                            aria-pressed="false">
+                        Branding & Logo
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="flyers"
+                            aria-pressed="false">
+                        Flyers & Posters
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="stationery"
+                            aria-pressed="false">
+                        Business Stationery
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="social"
+                            aria-pressed="false">
+                        Social Media
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="printing"
+                            aria-pressed="false">
+                        Printing
+                    </button>
+
+                    <button class="filter-btn"
+                            type="button"
+                            data-filter="other"
+                            aria-pressed="false">
+                        Other Work
+                    </button>
+
+                </div>
+
+
+                <!-- PROJECT GRID -->
+                <div class="projects-grid portfolio-grid">
+
+
+                    <!-- PROJECT 01 -->
+                    <article class="project-card"
+                             data-category="branding">
+
+                        <a href="project-details.html"
+                           class="project-image-link">
+
+                            <img
+                                src="../images/projects/branding-project.jpg"
+                                alt="Brand identity and logo design"
+                                loading="lazy"
+                            >
+
+                        </a>
+
+                        <div class="project-info">
+
+                            <p class="project-category">
+                                Branding & Logo
+                            </p>
+
+                            <h3>Brand Identity Design</h3>
+
+                            <p>
+                                Developing a distinctive visual identity
+                                that communicates brand personality.
+                            </p>
+
+                            <a href="project-details.html"
+                               class="project-link">
+                                View Project &rarr;
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 02 -->
+                    <article class="project-card"
+                             data-category="flyers">
+
+                        <a href="project-details.html"
+                           class="project-image-link">
+
+                            <img
+                                src="../images/projects/flyer-project.jpg"
+                                alt="Creative promotional flyer design"
+                                loading="lazy"
+                            >
+
+                        </a>
+
+                        <div class="project-info">
+
+                            <p class="project-category">
+                                Flyers & Posters
+                            </p>
+
+                            <h3>Promotional Flyer Design</h3>
+
+                            <p>
+                                Creative promotional materials designed
+                                to attract attention and communicate.
+                            </p>
+
+                            <a href="project-details.html"
+                               class="project-link">
+                                View Project &rarr;
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 03 -->
+                    <article class="project-card"
+                             data-category="stationery">
+
+                        <a href="project-details.html"
+                           class="project-image-link">
+
+                            <img
+                                src="../images/projects/business-card.jpg"
+                                alt="Professional business card design"
+                                loading="lazy"
+                            >
+
+                        </a>
+
+                        <div class="project-info">
+
+                            <p class="project-category">
+                                Business Stationery
+                            </p>
+
+                            <h3>Corporate Stationery</h3>
+
+                            <p>
+                                Professional business cards and stationery
+                                that strengthen brand recognition.
+                            </p>
+
+                            <a href="project-details.html"
+                               class="project-link">
+                                View Project &rarr;
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 04 -->
+                    <article class="project-card"
+                             data-category="social">
+
+                        <a href="project-details.html"
+                           class="project-image-link">
+
+                            <img
+                                src="../images/projects/social-media.jpg"
+                                alt="Social media graphic design project"
+                                loading="lazy"
+                            >
+
+                        </a>
+
+                        <div class="project-info">
+
+                            <p class="project-category">
+                                Social Media Design
+                            </p>
+
+                            <h3>Digital Campaign Graphics</h3>
+
+                            <p>
+                                Engaging digital graphics for social
+                                media campaigns and promotions.
+                            </p>
+
+                            <a href="project-details.html"
+                               class="project-link">
+                                View Project &rarr;
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 05 -->
+                    <article class="project-card"
+                             data-category="printing">
+
+                        <a href="project-details.html"
+                           class="project-image-link">
+
+                            <img
+                                src="../images/projects/print-project.jpg"
+                                alt="Printed marketing materials"
+                                loading="lazy"
+                            >
+
+                        </a>
+
+                        <div class="project-info">
+
+                            <p class="project-category">
+                                Printing & Publications
+                            </p>
+
+                            <h3>Marketing Print Materials</h3>
+
+                            <p>
+                                Bringing digital designs to life through
+                                quality printed materials.
+                            </p>
+
+                            <a href="project-details.html"
+                               class="project-link">
+                                View Project &rarr;
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 06 -->
+                    <article class="project-card"
+                             data-category="other">
+
+                        <a href="project-details.html"
+                           class="project-image-link">
+
+                            <img
+                                src="../images/projects/creative-project.jpg"
+                                alt="Creative visual design project"
+                                loading="lazy"
+                            >
+
+                        </a>
+
+                        <div class="project-info">
+
+                            <p class="project-category">
+                                Other Creative Work
+                            </p>
+
+                            <h3>Creative Visual Concepts</h3>
+
+                            <p>
+                                Exploring innovative visual ideas
+                                through creative experimentation.
+                            </p>
+
+                            <a href="project-details.html"
+                               class="project-link">
+                                View Project &rarr;
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+                <!-- EMPTY FILTER MESSAGE -->
+                <p class="no-projects" hidden>
+                    No projects found in this category.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             CONTACT CTA
+        ========================== -->
+        <section class="contact-cta-section section-padding">
+
+            <div class="container contact-cta-container">
+
+                <p class="eyebrow">
+                    HAVE SOMETHING IN MIND?
+                </p>
+
+                <h2>
+                    Your next great idea
+                    starts with a conversation.
+                </h2>
+
+                <p>
+                    Let's collaborate and create something
+                    meaningful for your brand or business.
+                </p>
+
+                <a href="contact.html" class="btn btn-light">
+                    Start a Project
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="../index.html" class="logo">
+                    Dancraft<span>Studioz</span>
+                </a>
+
+                <p>
+                    Creative design, branding, and printing
+                    solutions that bring ideas to life.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>Get in Touch</h3>
+
+                <a href="mailto:dancraftstudioz@gmail.com">
+                    dancraftstudioz@gmail.com
+                </a>
+
+                <a href="https://www.dancraftstudioz.tech">
+                    www.dancraftstudioz.tech
+                </a>
+
+                <p>Lapaz Nyamekeye, Ghana</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                &copy; <span id="current-year">2026</span>
+                Dancraft Studioz. All rights reserved.
+            </p>
+
+            <a href="#top" class="back-to-top">
+                Back to Top &uarr;
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/navigation.js"></script>
+    <script src="../js/portfolio.js"></script>
+
+</body>
+</html>
